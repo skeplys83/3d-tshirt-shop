@@ -1,8 +1,8 @@
 # 3D T-Shirt Shop
 
-A university project built during the **WS24/25** semester at **Reutlingen University** as part of my *MKI-Projet* Module.
+A university project built during the **WS24/25** semester at **Reutlingen University** as part of my **MKI-Projet** Module.
 
-The application is an immersive, fully interactive **3D online shop** where users can explore, select, and purchase T-shirts inside a three-dimensional virtual store - directly in the browser, no plugins required.
+The application is an immersive, fully interactive **3D online ecomerce shop** where users can explore, select, and purchase T-shirts inside a three-dimensional virtual store - directly in the browser, no plugins required.
 
 **Team:** Steffen Alber · Martin Hustoles · Kathrin Krell · Nick Maier · Simon Jell  
 **Professor:** Uwe Kloos
@@ -10,8 +10,6 @@ The application is an immersive, fully interactive **3D online shop** where user
 <p align="center">
   <img width="800" height="450" alt="trailer" src="https://github.com/user-attachments/assets/262e2ae3-491d-4033-a1ce-e853d2b92ecf" />
 </p>
-
----
 
 ## Getting Started
 
