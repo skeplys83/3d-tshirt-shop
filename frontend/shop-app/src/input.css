@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+basic settings
+ /
+body,p,a,ul,li{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+
+/
+basic styles
+ */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+body{
+    overflow-x: hidden;
+    line-break: anywhere;
+}

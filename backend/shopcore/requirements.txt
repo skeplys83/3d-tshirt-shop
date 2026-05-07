@@ -1,0 +1,12 @@
+Django==3.2
+stripe
+psycopg2-binary==2.9.6
+pytz
+djangorestframework
+django-ratelimit
+python-decouple
+django-cors-headers
+pillow
+whitenoise
+
+

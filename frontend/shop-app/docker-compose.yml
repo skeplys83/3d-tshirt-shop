@@ -1,0 +1,22 @@
+services:
+  threlte:
+    container_name: threlte-app-container
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./shop-app:/app
+      - shop-app_modules:/app/node_modules
+    environment:
+      - NODE_ENV=development
+    networks:
+      - 3d-shop
+
+networks:
+  3d-shop:
+    external: true
+
+volumes:
+  shop-app_modules:

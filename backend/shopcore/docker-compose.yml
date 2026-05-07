@@ -1,0 +1,44 @@
+services:
+  shop-database:
+    image: postgres:16
+    container_name: postgres-shop-3D
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB}
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    volumes:
+      - postgres_data_3d-shop:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    networks:
+      - 3d-shop
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER} -d ${POSTGRES_DB}"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  web:
+    build: .
+    container_name: django-app
+    command: python manage.py runserver 0.0.0.0:8000
+    volumes:
+      - .:/app
+    ports:
+      - "8000:8000"
+    environment:
+      - DJANGO_SETTINGS_MODULE=shopcore.settings
+    env_file:
+      - .env
+    depends_on:
+      shop-database:
+        condition: service_healthy
+    networks:
+      - 3d-shop
+
+networks:
+  3d-shop:
+    external: true
+
+volumes:
+  postgres_data_3d-shop:
