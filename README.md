@@ -7,7 +7,7 @@ The application is an immersive, fully interactive **3D online shop** where user
 **Team:** Steffen Alber · Martin Hustoles · Kathrin Krell · Nick Maier · Simon Jell  
 **Professor:** Uwe Kloos
 
-[<video src="assets/trailer.mp4" controls width="100%"></video>](https://github.com/user-attachments/assets/f4dfbef2-5337-45a5-9e45-7ec4ac677be5)
+<video src="https://github.com/user-attachments/assets/f4dfbef2-5337-45a5-9e45-7ec4ac677be5" autoplay loop muted playsinline width="100%"></video>
 
 ---
 
