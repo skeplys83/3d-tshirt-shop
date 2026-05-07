@@ -7,7 +7,9 @@ The application is an immersive, fully interactive **3D online shop** where user
 **Team:** Steffen Alber · Martin Hustoles · Kathrin Krell · Nick Maier · Simon Jell  
 **Professor:** Uwe Kloos
 
-<img width="800" height="450" alt="trailer" src="https://github.com/user-attachments/assets/262e2ae3-491d-4033-a1ce-e853d2b92ecf" />
+<p align="center">
+  <img width="800" height="450" alt="trailer" src="https://github.com/user-attachments/assets/262e2ae3-491d-4033-a1ce-e853d2b92ecf" />
+</p>
 
 ---
 
