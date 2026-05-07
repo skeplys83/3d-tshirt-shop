@@ -1,6 +1,6 @@
 # 3D T-Shirt Shop
 
-A university project built during the **WS24/25** semester at **Reutlingen University** as part of my **MKI-Projet** Module.
+A university project built during the **WS24/25** semester at **Reutlingen University** as part of my **MKI-Projekt** Module.
 
 The application is an immersive, fully interactive **3D online ecomerce shop** where users can explore, select, and purchase T-shirts inside a three-dimensional virtual store - directly in the browser, no plugins required.
 
